@@ -1,0 +1,11 @@
+I would start with Azure since it allows deploying Docker containers without a server.
+I would package the project with Maven, place the .jar in a Java-based image, and expose port 8080.
+After confirming it works, I would then push it to Azure Container Registry and deploy it via Azure Container Instances.
+
+
+
+
+
+
+
+
